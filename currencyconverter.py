@@ -16,7 +16,7 @@ while True:
         currency_user=input('Make an appropriate choice: \n1. AED \n2. EUR \n3. INR \n4. USD \n') #currency choice that you want to convert
         if currency_user=='1':
             factor=[1,0.24,18.83,0.27] #factor variable stores an array of possibility of values used as multiplication factor if currency_user is 1
-            break #break out of loop like x=0
+            break #break out of loop 
         elif currency_user=='2':
             factor=[4.12,1,77.56,1.12]
             break
@@ -28,7 +28,7 @@ while True:
             break
         else:
             print('OOPS.You made a wrong choice.Please choose currency that you would like to convert again\n') #repeat step 11 hence while loop but loop repeated only if  you enter else block
-            continue #continue loop like x=1
+            continue #skip to top of while loop
     print('\nChoose first currency that you would like to convert to\n')
     while True:
         currency_convert=input('Make an appropriate choice: \n1. AED \n2. EUR \n3. INR \n4. USD \n') #currency choice that you want to convert to
