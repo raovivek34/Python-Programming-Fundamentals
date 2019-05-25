@@ -31,9 +31,9 @@ while True:
         break
     elif choice=='2':
         print('\nRetrieving numbers from the list and sorting them in ascending order : \n')
-        while len(lst)!=0: #Will retrieve numbers in descending order and print them until the list is empty.
+        while len(lst)!=0: #Will retrieve numbers in ascending order and print them until the list is empty.
             print(min(lst))
-            lst.remove(min(lst)) #Remove maximum element from the list
+            lst.remove(min(lst)) #Remove minimum element from the list
         break
     else:
         print('Bad data entered. Try again')
