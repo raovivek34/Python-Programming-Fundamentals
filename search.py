@@ -3,7 +3,7 @@ names=[] #Empty list initially...later appended with user input strings or name
 x=1
 while x==1:
     name=input('\nEnter name in the list : ')
-    name=name.lower() #Converting to lowercase
+    name=name.lower().strip() #Converting to lowercase and stripping off whitespaces
     names.append(name)
     while True:
         choice=input('\nDo you want to enter more names.\n\nEnter 1 for yes and 2 for no.\n')
@@ -19,7 +19,7 @@ print('\nYour list of names looks like this --',names)
 print('\nThere are a total of',len(names),'names in the list')
 while True:
     search=input('\nSearch a name from the list. Type in the name here - : ') #Asking user to search for names in the list by typing the initial letters eg. viv will give vivek rao and vivek bhatt
-    search=search.lower()
+    search=search.lower().strip()
     print('\nMatching Results : \n')
     count=0
     for name in names: #Compares the searched initials with each name in the list
