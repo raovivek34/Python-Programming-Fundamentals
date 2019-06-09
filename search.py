@@ -20,6 +20,8 @@ print('\nThere are a total of',len(names),'names in the list')
 while True:
     search=input('\nSearch a name from the list. Type in the name here - : ') #Asking user to search for names in the list by typing the initial letters eg. viv will give vivek rao and vivek bhatt
     search=search.lower().strip()
+    searchlst=search.split() #This is done so that if someone searches eg. vivek  rao...note there are two extra spaces here but in the list there will be just vivek rao and hence searched entry will not match with one in the list hence splitting
+    search=' '.join(searchlst) # So even if you search Vivek     Rao or Vivek Rao or Vivek      Rao...it's gonna split them into Vivek and Rao and join them with a single space so that it is Vivek Rao    
     print('\nMatching Results : \n')
     count=0
     for name in names: #Compares the searched initials with each name in the list
