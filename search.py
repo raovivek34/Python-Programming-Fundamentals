@@ -4,7 +4,7 @@ x=1
 while x==1:
     name=input('\nEnter name in the list : ')
     name=name.lower().strip() #Converting to lowercase and stripping off whitespaces
-    namelst=name.split()
+    namelst=name.split() #Lines 7 and 8 of code is added to prevent extra spaces that user might enter sometimes in between the sentence eg. user enters name as Vivek   Rao although it should be entered as Vivek Rao - so it takes care of that.
     name=' '.join(namelst)
     names.append(name)
     while True:
