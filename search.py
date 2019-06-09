@@ -4,6 +4,8 @@ x=1
 while x==1:
     name=input('\nEnter name in the list : ')
     name=name.lower().strip() #Converting to lowercase and stripping off whitespaces
+    namelst=name.split()
+    name=' '.join(namelst)
     names.append(name)
     while True:
         choice=input('\nDo you want to enter more names.\n\nEnter 1 for yes and 2 for no.\n')
