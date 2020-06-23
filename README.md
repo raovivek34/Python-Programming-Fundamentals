@@ -7,3 +7,4 @@ Programs that are included in this :
 4. Line,Character and Word Counter of a File saved by the user (filecounter.py) - User saves a text file say welcome.txt in the same folder where python program is stored and can find out the number of lines, characters and words in the text file.
 
 The repository also includes the python programs which were a part of my assignments for 'Object Oriented Programming in Python' course at The University of Texas at Dallas.
+It covers the fundamental topics such as - Conditional Execution, Functions, Iteration, Python Data Structures, Exception Handling, OOP Principles, Data Visualization with Python.
