@@ -1,4 +1,4 @@
-# Basic-Python-Programs
+# Python-Programming-Fundamentals
 These programs will help you gain basic practical understanding of how Python programming language works and how do you write a good and an efficient code in Python. These programs are more than just basic python programs -- they are small programs but bigger ideas and practical solutions can stem out from this. This was the beginning of my journey with Python programming language.
 Programs that are included in this :
 1. Currency converter without live data (currencyconverter.py) - User enters amount and currency of his choice and converts it to two other currency equivalents.
